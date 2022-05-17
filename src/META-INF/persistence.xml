@@ -3,7 +3,7 @@
 	<persistence-unit name="tasklist" transaction-type="RESOURCE_LOCAL">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider
 </provider>
-		<class>models.Message</class>
+		<class>models.Task</class>
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver
 "/>
